@@ -16,7 +16,7 @@ $(document).ready(function() {
 	    question: "Which Premier League club has 16 players appearing for various national teams in the 2018 World Cup?",
 	    choices: ["Tottenham", "Chelsea", "Manchester City", "Arsenal"],
 	    correctAnswer: "Manchester City",
-	    image: "<img src='assets/images/jesus.gif'>"
+	    image: "<img src='assets/images/Jesus.gif'>"
 	  }, 
 	  {
 	    question: "How many World Cup appearances will 2018 mark for Brazil? (hint: they have qualified for every tournament)",
@@ -28,7 +28,7 @@ $(document).ready(function() {
 	    question: "Which team is looking to win back-to-back World Cups, a feat not done since Brazil in 1962?",
 	    choices: ["Germany", "Portugal", "Spain", "Argentina"],
 	    correctAnswer: "Germany",
-	    image: "<img src='assets/images/germany.jpg' height='200' width='200'>"
+	    image: "<img src='assets/images/germany.jpg' width='700' height='473'>"
 	  }, 
 	  {
 	    question: "Which of these teams are making their first appearance in a World Cup?",
@@ -76,7 +76,7 @@ $(document).ready(function() {
 	    question: "How many countries will compete in the 2018 World Cup?",
 	    choices: ["16", "32", "40", "24"],
 	    correctAnswer: "32",
-	    image: "<img src='assets/images/draw.jpg'>"
+	    image: "<img src='assets/images/draw.jpg' width='770' height='403'>"
 	  },
 	  {
 	    question: "Which of these countries will not be playing in the 2018 World Cup?",
