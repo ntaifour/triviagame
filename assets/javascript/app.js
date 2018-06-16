@@ -28,7 +28,7 @@ $(document).ready(function() {
 	    question: "Which team is looking to win back-to-back World Cups, a feat not done since Brazil in 1962?",
 	    choices: ["Germany", "Portugal", "Spain", "Argentina"],
 	    correctAnswer: "Germany",
-	    image: "<img src='assets/images/germany.jpg' 'height: 200px' 'width: 200px'>"
+	    image: "<img src='assets/images/germany.jpg' height='200' width='200'>"
 	  }, 
 	  {
 	    question: "Which of these teams are making their first appearance in a World Cup?",
