@@ -46,7 +46,7 @@ $(document).ready(function() {
 	    question: "What is the name of the mascot of the 2018 FIFA World Cup?",
 	    choices: ["Zabivaka", "Bely Mishka", "Zaika", "Putin"],
 	    correctAnswer: "Zabivaka",
-	    image: "<img src='assets/images/zabivaka.jpg'>"
+	    image: "<img src='assets/images/zabivaka.jpg' width='770' height='403'>"
 	  },
 	  {
 	    question: "Which of the following major Russian cities will not be hosting a World Cup Match",
@@ -58,7 +58,7 @@ $(document).ready(function() {
 	    question: "How old will Essam El-Hadary, Egyptian captain and goalkeeper, be when he becomes the all-time oldest participant of the competition?",
 	    choices: ["45", "36", "47", "50"],
 	    correctAnswer: "45",
-	    image: "<img src='assets/images/essam.jpg'>"
+	    image: "<img src='assets/images/essam.jpg' width='770' height='404'>"
 	  },
 	  {
 	    question: "Which player is Argentina's all-time leading goalscorer and five-time winner of FIFA's player of the year?",
@@ -82,13 +82,13 @@ $(document).ready(function() {
 	    question: "Which of these countries will not be playing in the 2018 World Cup?",
 	    choices: ["United States of America", "Costa Rica", "Panama", "Mexico"],
 	    correctAnswer: "United States of America",
-	    image: "<img src='assets/images/usa.jpg'>"
+	    image: "<img src='assets/images/usa.jpg' width='770' height='432'>"
 	  },
 	  {
 	    question: "Which country does the world's most expensive player captain ? ",
 	    choices: ["Uruguay", "Portugal", "France", "Brazil"],
 	    correctAnswer: "Brazil",
-	    image: "<img src='assets/images/neymar.jpg'>"
+	    image: "<img src='assets/images/neymar.jpg' width='770' height='433'>"
 	  },
 	  {
 	    question: "What percentage of the world's population are predicted to tune into the World Cup?",
@@ -166,7 +166,7 @@ $(document).ready(function() {
 			var endMessage = "Golasoooo! You're ready to hoist the cup!";
 		}
 		else {
-			var endMessage = "Crash and burn just like the Englishmen";
+			var endMessage = "Crash and burn just like the Englishmen...";
 		}
 		$("#gameScreen").html("<p>" + endMessage + "</p>" + "<p>You got <strong>" + 
 			correctGuesses + "</strong> right.</p>" + 
