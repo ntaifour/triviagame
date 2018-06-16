@@ -7,44 +7,39 @@ body {
 	font-family: 'Roboto', sans-serif;
 }
 
-html {
-	cursor: url(../images/controller.png), auto;
-}
-
-h1{
-	/* color: blue; */
+h1 {
 	padding: 25px;
-	/* text-shadow: 2px 2px white; */
 }
 
-.answer,
+.answer{
+	font-weight: 900;
+}
+
 #timer {
+	/* padding-top: 20px;
+	padding-bottom: 20px; */
 	font-weight: 900;
 }
 
 #start {
-	color: black;
+	color: #0000ff;
 }
 
 .choices {
 	text-align: center;
+	background-color: white; 
 	margin: 0 35%;
+	padding-bottom: 20px;
 }
 
 .choices:hover {
 	background-color: red;
-	color: white;
 }
 
 #gameScreen {
-	-webkit-box-shadow: 7px 5px 47px 0px rgba(255,0,0,0.76);
-	-moz-box-shadow: 7px 5px 47px 0px rgba(255,0,0,0.76);
-    box-shadow: 7px 5px 47px 0px rgba(255,0,0,0.76);
+	text-align: center;
+	background-color: white;
+	border-width: medium;
+	border-color: #0000ff;
     /* opacity: .7; */
 }   
-
-.shadow {
-	-webkit-box-shadow: -7px 6px 5px -1px rgba(255,0,0,0.79);
-	-moz-box-shadow: -7px 6px 5px -1px rgba(255,0,0,0.79);
-	box-shadow: -7px 6px 5px -1px rgba(255,0,0,0.79);
-}

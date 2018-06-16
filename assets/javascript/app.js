@@ -155,7 +155,7 @@ $(document).ready(function() {
 				correctAnswer + 
 				"</span></p>" + 
 				questions[questionCounter].image);
-			setTimeout(nextQuestion, 4000);
+			setTimeout(nextQuestion, 3000);
 			questionCounter++;
 		}
 	}
@@ -163,7 +163,7 @@ $(document).ready(function() {
 	// screen that shows final score and nice message
 	function resultsScreen() {
 		if (correctGuesses > incorrectGuesses) {
-			var endMessage = "Golasoooo! You're ready to hoist the cup!";
+			var endMessage = "Golazoooo! You are ready to hoist the cup!";
 		}
 		else {
 			var endMessage = "Crash and burn just like the Englishmen...";
