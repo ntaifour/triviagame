@@ -10,6 +10,7 @@ $(document).ready(function() {
     var incorrectGuesses = 0;
 
     // question & answer array
+    //want to make these questions appear randomly next
     var questions = [
       {
 	    question: "Which Premier League club has 16 players appearing for various national teams in the 2018 World Cup?",
@@ -216,12 +217,6 @@ $(document).ready(function() {
     function startGame() {
     	$("#gameScreen").html("<p>You have <span id='timer'>" + time + "</span> seconds left!</p>");
     	$("#start").hide();
-    	// $("#gameScreen").append("<div id='question'>");
-    	// var nextQuestion = questionContent(questionCounter);
-    	// $("#gameScreen").append(nextQuestion);
-
-		// $("#gameScreen").append("<p>" + questions[questionCounter].question + "</p><p>" + questions[questionCounter].choices[0] + "</p><p>" + questions[questionCounter].choices[1] + "</p><p>" + questions[questionCounter].choices[2] + "</p><p>" + questions[questionCounter].choices[3] + "</p>");
-		// questionCounter++;
 		questionContent();
     	timer();
     	userTimeout();
@@ -232,7 +227,6 @@ $(document).ready(function() {
 
     // click function to trigger right or wrong screen
 	$("#gameScreen").on("click", ".choices", (function() {
-		// alert("clicked!");
 		var userGuess = $(this).text();
 		if (userGuess === questions[questionCounter].correctAnswer) {
 			clearInterval(clock);

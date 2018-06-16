@@ -11,13 +11,10 @@ html {
 	cursor: url(../images/controller.png), auto;
 }
 
-h1,
-h2,
-h3 {
-	font-family: 'Press Start 2P', cursive;
-	color: white;
+h1{
+	/* color: blue; */
 	padding: 25px;
-	text-shadow: 2px 2px red;
+	text-shadow: 2px 2px white;
 }
 
 .answer,
@@ -31,8 +28,8 @@ h3 {
 
 .choices {
 	text-align: center;
-	border: groove 2px black;
-	border-radius: 5%;
+	/* border: groove 2px black;
+    border-radius: 5%; */
 	margin: 0 35%;
 }
 
@@ -46,7 +43,7 @@ h3 {
 	-moz-box-shadow: 7px 5px 47px 0px rgba(255,0,0,0.76);
     box-shadow: 7px 5px 47px 0px rgba(255,0,0,0.76);
     /* opacity: .7; */
-}
+}   
 
 .shadow {
 	-webkit-box-shadow: -7px 6px 5px -1px rgba(255,0,0,0.79);
