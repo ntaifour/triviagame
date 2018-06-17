@@ -1,8 +1,10 @@
 World Cup Trivia 
 
+
 Get ready for Russia by testing your wits or picking up a thing or two about the world's greatest competition!
 
 This was made to practice jQuery for my bootcamp.
+
 
 Here are the answers:
 
