@@ -85,7 +85,7 @@ $(document).ready(function() {
 	    image: "<img src='assets/images/usa.jpg' width='770' height='432'>"
 	  },
 	  {
-	    question: "Which country does the world's most expensive player captain? ",
+	    question: "Which country does the world's most expensive player lead? ",
 	    choices: ["Uruguay", "Portugal", "France", "Brazil"],
 	    correctAnswer: "Brazil",
 	    image: "<img src='assets/images/neymar.jpg' width='770' height='433'>"

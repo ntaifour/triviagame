@@ -54,7 +54,7 @@ Which of these countries will not be playing in the 2018 World Cup?
     
     United States of America
 
-Which country does the world's most expensive player captain?
+Which country does the world's most expensive player lead?
     
     Brazil
 	
