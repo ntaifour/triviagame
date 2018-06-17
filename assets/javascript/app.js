@@ -67,7 +67,7 @@ $(document).ready(function() {
 	    image: "<img src='assets/images/messi.gif'>"
 	  },
 	  {
-	    question: "What nefarious, rat-lookin motherfucker will be taking the stage for his 3rd World Cup, keen on chewing his way through more opponents?",
+	    question: "What nefarious player will be keen on taking a bite out of his opponents in his 3rd World Cup?",
 	    choices: ["Pepe", "Sergio Ramos", "Luis Suarez", "Cristiano Ronaldo"],
 	    correctAnswer: "Luis Suarez",
 	    image: "<img src='assets/images/suarez.jpg'>"
