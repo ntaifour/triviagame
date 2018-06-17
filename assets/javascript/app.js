@@ -10,7 +10,7 @@ $(document).ready(function() {
     var incorrectGuesses = 0;
 
     // question & answer array
-    //want to make these questions appear randomly next
+    // want to make these questions appear randomly next
     var questions = [
       {
 	    question: "Which Premier League club has 16 players appearing for various national teams in the 2018 World Cup?",
