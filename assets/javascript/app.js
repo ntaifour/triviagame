@@ -121,7 +121,7 @@ $(document).ready(function() {
 
 	// user guessed correctly
 	function userRight() {
-		$("#gameScreen").html("<p>You got it right!</p>");
+		$("#gameScreen").html("<p>Olé! You got it!</p>");
 		correctGuesses++;
 		var correctAnswer = questions[questionCounter].correctAnswer;
 		$("#gameScreen").append("<p>The answer was <span class='answer'>" + 
@@ -134,7 +134,7 @@ $(document).ready(function() {
 
 	// user guessed incorrectly
 	function userWrong() {
-		$("#gameScreen").html("<p>Nope, that's not it!</p>");
+		$("#gameScreen").html("<p>Womp... womp...</p>");
 		incorrectGuesses++;
 		var correctAnswer = questions[questionCounter].correctAnswer;
 		$("#gameScreen").append("<p>The answer was <span class='answer'>" + 
