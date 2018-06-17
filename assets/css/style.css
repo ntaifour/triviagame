@@ -22,12 +22,11 @@ p {
 
 img {
 	margin-bottom: 20px;
-	box-shadow: 10px 10px 25px rgba(0,0,0,0.5);
+	/* box-shadow: 10px 10px 25px -5px #0000ff; */
+	box-shadow: 10px 10px 25px #8c8cff;
 }
 
 #timer {
-	/* padding-top: 20px;
-	padding-bottom: 20px; */
 	font-weight: 900;
 	color: red
 }
